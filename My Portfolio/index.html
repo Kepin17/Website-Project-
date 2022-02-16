@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" />
+    <title>Portfollio | Kevien Ollyvie Jolanda</title>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <nav>
+        <div class="logo-box">
+          <img src="img/Logo.png" alt="logo" class="logo" />
+          <h1><a href="index.html">Kevien.</a></h1>
+        </div>
+        <div class="nav-links" id="navlinks">
+          <i class="bi bi-caret-right-square-fill" onclick="closeMenu()"></i>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-list" onclick="openMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1><span class="auto-input"></span></h1>
+        <a href="" class="info-btn">More Info</a>
+      </div>
+    </header>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <section id="about">
+      <div class="bg-about">
+        <div class="row">
+          <div class="about-box">
+            <h2>About Me</h2>
+            <img src="img/Logo.png" alt="Profile" id="profile" />
+            <p>
+              Aku sudah melakukan coding sejak 3 bukan lalu,aku belajar secara autodidak melalui internet dan sumber lainya.Saat ini aku berada di kelas XII SMA,dan sebentar lagi aku akan masuk ke dunia yang lebih luas untuk melihat dan
+              menambah wawasan baik itu secara sosial,skill dan pengetahuan baru.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About End -->
+
+  <!-- Service Start -->
+  <section id="service">
+    <div class="bg-service">
+      <div class="row">
+        <div class="service-box">
+          <h2>Serv<span>i</span>ce</h2>
+          <div class="service-list">
+        
+            <div class="card">
+              <div class="service-1">
+                <img src="img/service2.png" alt="" id="web-design">
+                <h1>Web Consultan</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, sunt.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="service-1">
+                <img src="img/service1.png" alt="" id="web-design">
+                <h1>Web Design</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, sunt.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Service End -->
+
+  <section id="contact">
+    <div class="contact-bg">
+      <div class="row">
+        <div class="contact-box">
+          <h2>Contact Us</h2>
+          <div class="myContact">
+            <img src="img/Char1.png" alt="" width="500px" height="800px">
+          <ul>
+            <li><a href=""><i class="bi bi-instagram"> Kevien.oj</i></a></li>
+            <li><a href=""><i class="bi bi-youtube"> Kevien YT</i></a></li>
+            <li><a href=""><i class="bi bi-github"> Kepin17</i></a></li>
+          </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Start -->
+  <footer>
+    <small>Copyright &copy 2021 Kepin17 </small>
+  </footer>
+  <!-- Footer End -->
+
+    <!-- MenuBar Script -->
+    <script>
+      var MenuList = document.getElementById("navlinks");
+      function openMenu() {
+        MenuList.style.right = "0";
+      }
+
+      function closeMenu() {
+        MenuList.style.right = "-200px";
+      }
+    </script>
+
+    <!-- Auto text Sciprt -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto-input", {
+        strings: ["Hi! 😃", "How are you today?", "Welcome to my Portfollio"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

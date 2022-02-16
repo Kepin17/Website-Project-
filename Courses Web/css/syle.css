@@ -1,0 +1,365 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header Start */
+header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/header/header.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 8%;
+}
+
+nav .logo {
+  color: rgb(212, 133, 28);
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.nav-links ul li {
+  display: inline-block;
+  margin: 10px;
+  list-style: none;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: rgb(250, 224, 167);
+}
+
+.textbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: auto;
+}
+
+.textbox h1 {
+  color: rgb(219, 156, 83);
+  font-size: 60px;
+}
+
+.textbox p {
+  color: antiquewhite;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 30px;
+}
+
+.join-btn {
+  text-decoration: none;
+  background-color: transparent;
+  padding: 10px 30px;
+  color: aliceblue;
+  border: 2px solid;
+  border-radius: 6px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.5s;
+}
+
+.join-btn:hover {
+  background-color: antiquewhite;
+  color: rgb(221, 160, 80);
+}
+
+/* Header End */
+
+/* About Start */
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(245, 242, 239);
+}
+
+.row {
+  padding: 20px 0;
+}
+
+.box {
+  display: flex;
+}
+.text-box {
+  margin: 8% 12%;
+  text-align: center;
+}
+.img1 {
+  width: 600px;
+}
+
+.text-box h2 {
+  margin: 4% 8%;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #814d10;
+}
+
+.text-box p {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+  font-size: 23px;
+  font-weight: 500;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.more-info-btn {
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 3px solid rgb(214, 171, 115);
+  color: rgb(129, 84, 24);
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.more-info-btn:hover {
+  background-color: rgb(214, 171, 115);
+  color: aliceblue;
+}
+
+/* About End */
+
+.bi-x-circle-fill {
+  display: none;
+}
+.bi-list {
+  display: none;
+}
+/* Medua Querry */
+
+@media (max-width: 700px) {
+  nav .logo {
+    font-size: 30px;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(27, 26, 24);
+    z-index: 1;
+    margin: auto;
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+
+  .nav-links ul li {
+    display: block;
+    padding: 20px 0;
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .bi-x-circle-fill {
+    display: block;
+    color: rgb(241, 181, 91);
+    margin: 5% 2%;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .bi-list {
+    display: block;
+    color: rgb(243, 172, 66);
+    font-size: 30px;
+    margin: 5px 0;
+    cursor: pointer;
+  }
+
+  .textbox p {
+    width: 300px;
+    font-size: 20px;
+  }
+}
+
+/* Service */
+
+.courses-box {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #814d10;
+}
+
+.CoursesList {
+  display: inline-block;
+  padding: 50px;
+}
+/* Tutor */
+
+.Tutor_textbox {
+  text-align: center;
+}
+
+.Tutor_textbox {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #814d10;
+}
+
+.TutorList {
+  display: inline-block;
+  padding: 50px;
+}
+
+.card {
+  padding: 10px;
+  box-shadow: 1px 2px 2px 1px;
+  border-radius: 10px;
+}
+
+.TutorList .card img {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#Name-tag {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(133, 76, 2);
+  border: 3px solid #e9b67d;
+  transition: 0.5s;
+}
+#Name-tag:hover {
+  background-color: #e9b67d;
+}
+
+/* Testimoni */
+
+.testimoni_Title h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #814d10;
+}
+
+.testimoni_card {
+  display: flex;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.card_box {
+  width: 600px;
+  height: 300px;
+  background-color: #e7a04e;
+  border-radius: 20px;
+  margin: 80px 0;
+}
+
+.testimoni_textbox {
+  display: flex;
+}
+
+.testimoni_textbox img {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 20px;
+  border-radius: 50%;
+}
+
+.comment p {
+  width: 80%;
+  margin: 50px;
+  color: #5c3202;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bi-star-fill,
+.bi-star-half {
+  position: relative;
+  top: -30px;
+  left: 50px;
+  background-color: rgb(233, 162, 81);
+}
+
+#name {
+  margin: 0 80px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #532f06;
+}
+
+/* Sponsor */
+
+.sponsor_section {
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(56, 49, 43);
+}
+
+.sponsor_textbox {
+  text-align: center;
+}
+
+.sponsor_textbox h1 {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #cfbfab;
+}
+
+.sponsor_List {
+  display: inline-block;
+  padding: 50px;
+}
+
+.sponsor img {
+  width: 200px;
+  height: 50px;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  height: 40vh;
+  background-color: #2b251c;
+  color: #d87708;
+  overflow: hidden;
+}
+
+#Logo {
+  font-size: 30px;
+  padding: 15px;
+}
+
+.medsos_List ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+
+.medsos_List ul li a {
+  text-decoration: none;
+  color: #f59c38;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.medsos_List ul li .bi {
+  font-size: 30px;
+}
+
+.medsos_List ul li h4 {
+  font-size: 30px;
+}

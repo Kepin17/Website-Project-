@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Kevien Company</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html">Kevien Ollyvie.</a>
+        </div>
+        <div class="navbar" id="navbar">
+          <div class="close" onclick="CloseMenu()">X</div>
+          <ul>
+            <li><a href="index.html" id="active">Home Page</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Signup</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="show" onclick="menu()">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      
+      <div class="textbox">
+        <h1>Kevien Company Website</h1>
+        <p>Technology for Inovation</p>
+        <a href="" class="btn">Join Us</a>
+      </div>
+    </header>
+    
+
+    <!-- ABOUT -->
+    
+    <main id="about">
+      <div class="row">
+        <div class="title">
+          <h1>About Us</h1>
+          <img src="../img/app-background.png" alt="About Photo" class="about-pict">
+          <h5 class="small-text">Make a Better Future</h5>
+          <p>
+            Today is the age of technology 4.0,as a young generation we must be able to run and manage technology in order to be of use many people.
+            My name is Kevien Ollyvie Jolanda, i'm from Indonesia ,now i was a student in highschool.I'm interest in the technology and progaming world. 
+          </p>
+          <a href="about.html" class="about-btn btn">More Info About Us</a>
+          
+        </div>
+      </div>
+    </main>
+    
+    
+    <!-- END ABOUT -->
+    
+    <!-- SERVICE -->
+    
+    <main id="services">
+      <div class="row">
+        <div class="title">
+          <h1>Serv<span>i</span>ce</h1>
+        </div>
+        
+        <div class="service-box">
+          <img src="../img/progaming.png" alt="service-pict" class="service-img">
+          
+          <ul>
+            <li>Web Development</li>
+            <li>Design Website Consultan</li>
+            <li>Mobile APP Development</li>
+          </ul>
+        </div>
+        <center>
+          <a href="about.html" class="service-btn btn">Order Something?</a>
+        </center>
+
+        <!-- </div> -->
+      </main>
+      
+      <!-- END SERVICE -->
+
+
+      <!-- Contact -->
+
+      <main id="contact">
+        <div class="row">
+          <div class="title">
+            <h1>Contact</h1>
+          </div>
+          <div class="contact-box">
+            <img src="../img/Char1.png" alt="pict1" class="gambar">
+            <ul>
+              <li><a href="instagram.com/Kevein.oj">Instagram</a></li>
+              <li><a href="mailto:kevien.oj@gmail.com?subject Feedback = Message">MyEmail</a></li>
+            
+            </ul>
+          </div>
+        </div>
+      </main>
+
+      <!-- END Contact -->
+
+
+      <!-- Footer -->
+
+      <footer>
+        <small>CopyRight &copy; 2022 , Design by Kevien OJ </small>
+      </footer>
+
+      <!-- End Footer -->
+
+      <!-- Menu Script-->
+      <script>
+        var navbar = document.getElementById("navbar");
+        function menu() {
+          navbar.style.right = "0";
+        }
+        function CloseMenu(){
+          navbar.style.right = "-200px";
+          
+        }
+        </script
+       
+  </body>
+  </html>

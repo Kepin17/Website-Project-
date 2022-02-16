@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses Web</title>
+    <link rel="icon" type="image/png" href="../img/header/logo.png">
+    <link rel="stylesheet" href="../css/syle.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <nav>
+        <h1><a href="../html/index.html" class="logo">Kevien Courses </a></h1>
+        <div class="nav-links" id="navlinks">
+          <i class="bi bi-x-circle-fill" onclick="closeMenu()"></i>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#tutor">Tutor</a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+            <li><a href="#sponsor">Sponsor</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-list" onclick="openMenu()"></i>
+      </nav>
+      <div class="textbox">
+        <h1>Join Our Courses</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, ipsam?</p>
+        <a href="" class="join-btn">Join Us</a>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- About Start-->
+    <section id="about">
+      <div class="row">
+        <div class="box">
+          <img src="../img/header/aboutpict1.png" class="img1" />
+          <div class="text-box">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quas, rerum nesciunt sed dolorem similique distinctio ad aliquam! Optio, hic.</p>
+            <a href="" class="more-info-btn">More Info</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About End-->
+
+    <!-- Courses Start -->
+    <section id="courses">
+      <div class="row">
+        <div class="courses-box">
+          <h1>Our Courses</h1>
+          <div class="CoursesList">
+            <div class="card">
+              <img src="../img/courses/html.png" alt="" />
+              <p id="Name-tag">HTML</p>
+            </div>
+          </div>
+          <div class="CoursesList">
+            <div class="card">
+              <img src="../img/courses/css.jpg" alt="" />
+              <p id="Name-tag">CSS</p>
+            </div>
+          </div>
+          <div class="CoursesList">
+            <div class="card">
+              <img src="../img/courses/Bootstrap5.png" alt="" />
+              <p id="Name-tag">Bootstrap5</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Courses End -->
+
+    <!-- Tutor Start -->
+
+    <section id="tutor">
+      <div class="row">
+        <div class="Tutor_textbox">
+          <h1>Our Tutor</h1>
+          <div class="TutorList">
+            <div class="card">
+              <img src="../img/Tutor/Alexa.jpg" alt="" />
+              <p id="Name-tag">Alexa</p>
+            </div>
+          </div>
+          <div class="TutorList">
+            <div class="card">
+              <img src="../img/Tutor/Lee_Jun_Meen.jpg" alt="" />
+              <p id="Name-tag">Lee Jun Meen</p>
+            </div>
+          </div>
+          <div class="TutorList">
+            <div class="card">
+              <img src="../img/Tutor/Diana_Florensa.jpg" alt="" />
+              <p id="Name-tag">Diana Floresia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tutor End -->
+
+    <!-- testimoni Start -->
+    <section id="testimoni">
+      <div class="row">
+        <div class="testimoni_Title">
+          <h1>Our Testimoni</h1>
+          <div class="testimoni_card">
+            <div class="card_box">
+              <div class="testimoni_textbox">
+                <img src="../img/Testimoni/Jennie.jpg" alt="" />
+                <div class="comment">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, delectus.</p>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </div>
+              </div>
+              <p id="name">Jennie</p>
+            </div>
+            <div class="testimoni_card">
+              <div class="card_box">
+              <div class="testimoni_textbox">
+                <img src="../img/Testimoni/Lisa.jpg" alt="" />
+                <div class="comment">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, delectus.</p>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+              <p id="name">Lisa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimoni End -->
+
+
+    <!-- Sponsor -->
+    <div class="sponsor_section" id="sponsor">
+      <div class="row">
+        <div class="sponsor_textbox">
+          <h1>Our Sponsor</h1>
+      
+          <div class="sponsor_List">
+            <div class="sponsor">
+              <img src="../img/Sponsor/Trisakti.png" alt="">
+            </div>
+          </div>
+          <div class="sponsor_List">
+            <div class="sponsor">
+              <img src="../img/Sponsor/UI_ICON.png" alt="">
+            </div>
+          </div>
+          <div class="sponsor_List">
+            <div class="sponsor">
+              <img src="../img/Sponsor/Mandiri.png" alt="">
+            </div>
+          </div>
+          <div class="sponsor_List">
+            <div class="sponsor">
+              <img src="../img/Sponsor/top_BCA1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Footer Start -->
+    <footer>
+      <nav>
+        <div class="logo">
+          <h1 id="Logo">Kevien Courses</h1> <br>
+          <h4>Copyright &copy; 2021 Kevien Courses</h4>
+        </div>
+        
+        <div class="medsos_List">
+          <ul>
+            <li><a href="" target="_blank"><i class="bi bi-instagram"> Kevien_Courses.id</i></a></li>
+            <li><a href="tel:087885255400" target="_blank"><i class="bi bi-telephone-fill"> 087885255400</i></a></li>
+            <li><a href=""><i class="bi bi-twitter" target="_blank"></i> Kevien_Courses.id</a></li>
+            <li><a href="mailto:kevienCourses@gmail.com" target="_blank"><i class="bi bi-envelope-check-fill"> kevienCourses@gmail.com</i></a></li>
+        
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    
+    <!-- Footer End -->
+    <script src="../js/menuBar.js"></script>
+  </body>
+</html>
